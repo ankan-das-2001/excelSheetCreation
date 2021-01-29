@@ -1,8 +1,8 @@
 from openpyxl import Workbook
 
 i=2
-symbol=input("Enter the symbol to differentiate")
-filename=input('Enter the filename/location of your text file')
+symbol=input("Enter the symbol to differentiate: ")
+filename=input('Enter the filename/location of your text file: ')
 
 wb=Workbook()
 sheet=wb['Sheet']
